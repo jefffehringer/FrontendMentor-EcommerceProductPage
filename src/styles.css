@@ -1,1 +1,171 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --orange: hsl(26, 100%, 55%);
+  --pale-orange: hsl(25, 100%, 94%);
+  --very-dark-blue: hsl(220, 13%, 13%);
+  --dark-grayish-blue: hsl(219, 9%, 45%);
+  --grayish-blue: hsl(220, 14%, 75%);
+  --light-grayish-blue: hsl(223, 64%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 16px;
+  padding: 0px 80px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.navbar {
+  border-bottom: solid 3px var(--light-grayish-blue);
+  width: 100%;
+  display: flex;
+  padding: 10px 0px 20px 0px;
+}
+
+.brand {
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size: x-large;
+  margin-right: 50px;
+  align-self: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav-links a {
+  align-self: center;
+  text-decoration: none;
+  color: var(--dark-grayish-blue);
+  margin: 0px 10px 0px 10px;
+}
+
+.cart-profile {
+  align-items: center;
+  display: flex;
+}
+
+.profile {
+  margin-left: 20px;
+  height: 3rem;
+  width: 3rem;
+}
+
+.cart {
+  align-self: center;
+}
+
+.item-detail-content {
+  padding: 30px;
+  display: flex;
+}
+
+.item-details {
+
+}
+
+.item-detail-col {
+  flex-basis: 50%;
+  padding: 50px;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.detail-company {
+  color: var(--orange);
+  font-weight: bold;
+  margin: 100px 0px 20px 0px;
+}
+
+.item-name {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: var(--black);
+  margin-bottom: 50px;
+}
+
+.item-description {
+  color: var(--dark-grayish-blue);
+  margin-bottom: 20px;
+}
+
+.price {
+  display: flex;
+  align-content: center;
+}
+
+.current-price {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-right: 2rem;
+}
+
+.discount {
+  border-radius: 10px;
+  background-color: var(--pale-orange);
+  color: var(--orange);
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: var(--dark-grayish-blue);
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.quantity-cart {
+  display: flex;
+  align-content: center;
+  margin-top: 30px;
+}
+
+.quantity-container {
+  display: flex;
+  padding: 5px;
+  background-color: var(--light-grayish-blue);
+  border-radius: 5px;
+  margin-right: 25px;
+}
+
+.quantity-changer {
+  color: var(--orange);
+  padding: 10px;
+  font-weight: bold;
+}
+
+.quantity {
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.add-to-cart {
+  border-radius: 15px;
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 10px 60px;
+  height: 100%;
+  border: none;
+}
+
+.add-cart-icon {
+  color: var(--white);
+}
